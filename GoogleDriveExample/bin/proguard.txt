@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:20
+-keep class com.example.driveexample.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:11
+-keepclassmembers class * { *** logmein(...); }
+
+# onClick res/layout/activity_main.xml #generated:29
+-keepclassmembers class * { *** logmeout(...); }
+
+# onClick res/layout/activity_main.xml #generated:20
+-keepclassmembers class * { *** uploadFile(...); }
+
